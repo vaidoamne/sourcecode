@@ -1,5 +1,5 @@
 .body {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background-color: rgba(39, 39, 39, 1);
     top: 0;
@@ -21,4 +21,21 @@
     background-color: rgba(39, 39, 39, 1);
     color:rgba(255, 255, 255, 0.8);
     
+}
+
+.carousel-style{
+    position:absolute;
+    height:250px;
+    background-color: rgba(39, 39, 39, 1);
+    border-width: 5px;
+    border-color: rgba(240, 160, 20, 0.8);
+    box-shadow: 0 0 10px 5px rgba(240, 160, 20, 0.8),0 0 20px 10px rgba(245,115,25,0.8),0 0 30px 15px rgba(39, 39, 39, 1);
+    border-radius: 10px;
+}
+.carousel-box{
+    position: absolute;
+    top:600px;
+    height:250px;
+    left:200px;
+    width: 80%;
 }

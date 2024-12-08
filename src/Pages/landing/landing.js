@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './landing.css'; 
 
 const Landing = () => {
+  
     const [inputValue, setInputValue] = useState('');
     const [passwordValue, setpasswordValue] = useState('');
 
@@ -19,7 +20,7 @@ const Landing = () => {
     
     <div className="landing-container">
     <div className='logo'></div>
-    <div className='company-name'>Railroad Scammers</div>
+    <div className='company-name'>Railroad Lens</div>
       <div className="background-image"></div>
       <div className="gradient-overlay"></div>
       <div className="landing-content">
@@ -48,6 +49,8 @@ const Landing = () => {
         </Link>
         <div className='signup-text'>Don't have an account? Sign Up</div>
       </div>
+
+
     </div>
   );
 };

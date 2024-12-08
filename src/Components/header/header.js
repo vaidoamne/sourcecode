@@ -11,7 +11,7 @@ const Header = () => {
     }, []);
 
     return (
-        <Box sx={{ display: 'flex', justifyContent: 'space-between', padding: 2, backgroundColor: '#333', color: 'white' }}>
+        <Box sx={{ display: 'flex', justifyContent: 'space-between', padding: 2, backgroundColor: 'rgba(240, 160, 20, 1);', color: 'black' }}>
             <Typography variant="h6">Dashboard</Typography>
             <Typography variant="h6">{time.toLocaleTimeString()}</Typography>
         </Box>
