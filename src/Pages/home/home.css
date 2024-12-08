@@ -1,0 +1,24 @@
+.body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(39, 39, 39, 1);
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.widget {
+    background-color: rgba(39, 39, 39, 1);
+    border-radius: 8px;
+    border-color: rgba(39, 39, 39, 0.5);
+    border-style: groove;
+    border-width: 5px;
+    color: red;
+}
+.widget-inside{
+    background-color: rgba(39, 39, 39, 1);
+    color:rgba(255, 255, 255, 0.8);
+    
+}
